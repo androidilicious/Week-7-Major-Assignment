@@ -37,14 +37,62 @@ The database models a company with departments, employees, projects, and salary 
 
 ### Entity Relationship Diagram (ERD)
 
-```
-departments (1) ──< (M) employees
-     │                       │
-     │                       └──< (M) salary_history
-     │                       │
-     │                       └──< (M) project_assignments
-     │                                        │
-     └──< (M) projects (1) ──────────────────┘
+```mermaid
+erDiagram
+    departments ||--o{ employees : "has"
+    departments ||--o{ projects : "owns"
+    employees ||--o{ salary_history : "has"
+    employees ||--o{ project_assignments : "assigned_to"
+    employees ||--o| employees : "manages"
+    projects ||--o{ project_assignments : "includes"
+    
+    departments {
+        int dept_id PK
+        varchar dept_name
+        varchar location
+        decimal budget
+        date established_date
+    }
+    
+    employees {
+        int emp_id PK
+        varchar first_name
+        varchar last_name
+        varchar email UK
+        date hire_date
+        int dept_id FK
+        varchar job_title
+        int manager_id FK
+        varchar status
+    }
+    
+    projects {
+        int project_id PK
+        varchar project_name
+        int dept_id FK
+        date start_date
+        date end_date
+        decimal budget
+        varchar status
+    }
+    
+    project_assignments {
+        int assignment_id PK
+        int project_id FK
+        int emp_id FK
+        varchar role
+        decimal hours_allocated
+        date assigned_date
+    }
+    
+    salary_history {
+        int salary_id PK
+        int emp_id FK
+        decimal salary
+        date start_date
+        date end_date
+        varchar change_reason
+    }
 ```
 
 ### Tables Overview
