@@ -8,100 +8,30 @@
 solid DukeLogo
   facet normal 0 0 1
     outer loop
-      vertex 10 0 0
-      vertex 10 50 0
-      vertex 15 50 0
+      vertex 0 0 0
+      vertex 0 50 0
+      vertex 5 50 0
     endloop
   endfacet
   facet normal 0 0 1
     outer loop
-      vertex 10 0 0
-      vertex 15 50 0
-      vertex 15 0 0
+      vertex 0 0 0
+      vertex 5 50 0
+      vertex 5 0 0
     endloop
   endfacet
   facet normal 0 0 1
     outer loop
-      vertex 15 0 0
-      vertex 15 5 0
-      vertex 35 5 0
+      vertex 5 0 0
+      vertex 5 50 0
+      vertex 30 45 0
     endloop
   endfacet
   facet normal 0 0 1
     outer loop
-      vertex 15 0 0
-      vertex 35 5 0
-      vertex 35 0 0
-    endloop
-  endfacet
-  facet normal 0 0 1
-    outer loop
-      vertex 35 5 0
-      vertex 40 10 0
-      vertex 40 5 0
-    endloop
-  endfacet
-  facet normal 0 0 1
-    outer loop
-      vertex 35 5 0
-      vertex 35 10 0
-      vertex 40 10 0
-    endloop
-  endfacet
-  facet normal 0 0 1
-    outer loop
-      vertex 40 10 0
-      vertex 45 25 0
-      vertex 45 10 0
-    endloop
-  endfacet
-  facet normal 0 0 1
-    outer loop
-      vertex 40 10 0
-      vertex 40 25 0
-      vertex 45 25 0
-    endloop
-  endfacet
-  facet normal 0 0 1
-    outer loop
-      vertex 45 25 0
-      vertex 40 40 0
-      vertex 45 40 0
-    endloop
-  endfacet
-  facet normal 0 0 1
-    outer loop
-      vertex 45 25 0
-      vertex 45 40 0
-      vertex 40 40 0
-    endloop
-  endfacet
-  facet normal 0 0 1
-    outer loop
-      vertex 40 40 0
-      vertex 35 45 0
-      vertex 40 45 0
-    endloop
-  endfacet
-  facet normal 0 0 1
-    outer loop
-      vertex 40 40 0
-      vertex 35 40 0
-      vertex 35 45 0
-    endloop
-  endfacet
-  facet normal 0 0 1
-    outer loop
-      vertex 35 45 0
-      vertex 15 50 0
-      vertex 35 50 0
-    endloop
-  endfacet
-  facet normal 0 0 1
-    outer loop
-      vertex 35 45 0
-      vertex 15 45 0
-      vertex 15 50 0
+      vertex 5 0 0
+      vertex 30 45 0
+      vertex 30 5 0
     endloop
   endfacet
 endsolid DukeLogo
