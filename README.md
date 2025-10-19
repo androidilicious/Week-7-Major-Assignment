@@ -5,10 +5,13 @@
 ---
 
 ## 📋 Table of Contents
-1. [Project Overview](#project-overview)
-2. [Database Design](#database-design)
-3. [SQL Query Examples](#sql-query-examples)
-4. [How to Run](#how-to-run)
+1. [Project Overview](#-project-overview)
+2. [Database Design](#-database-design)
+3. [SQL Query Examples](#-sql-query-examples)
+4. [Summary of SQL Features Covered](#-summary-of-sql-features-covered)
+5. [How to Run](#-how-to-run)
+6. [Tips for SQL Interviews](#-tips-for-sql-interviews)
+7. [Additional Resources](#-additional-resources)
 
 ---
 
@@ -21,7 +24,7 @@ This SQL Guidebook is a  reference demonstrating advanced SQL concepts through a
 - **Multiple JOIN operations** (INNER, LEFT)
 - **Window functions** with PARTITION BY
 - **Common Table Expressions (CTEs)**
-- **String and Date functions** (self-explored)
+- **String and Date functions**
 - **Data transformation** with CASE WHEN and COALESCE
 
 ### Database Schema: Company Management System
