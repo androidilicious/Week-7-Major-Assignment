@@ -5,36 +5,92 @@
 ---
 
 ```stl
-solid DukeLogo
-  facet normal 0 0 1
+solid DukeDLogo
+  facet normal 0 0 -1
     outer loop
       vertex 0 0 0
-      vertex 0 50 0
-      vertex 5 50 0
+      vertex 40 0 0
+      vertex 0 5 0
     endloop
   endfacet
-  facet normal 0 0 1
+  facet normal 0 0 -1
     outer loop
-      vertex 0 0 0
-      vertex 5 50 0
-      vertex 5 0 0
+      vertex 40 0 0
+      vertex 40 5 0
+      vertex 0 5 0
     endloop
   endfacet
-  facet normal 0 0 1
+  facet normal 0 0 -1
     outer loop
-      vertex 5 0 0
-      vertex 5 50 0
-      vertex 30 45 0
+      vertex 5 5 0
+      vertex 15 5 0
+      vertex 5 60 0
     endloop
   endfacet
-  facet normal 0 0 1
+  facet normal 0 0 -1
     outer loop
-      vertex 5 0 0
-      vertex 30 45 0
-      vertex 30 5 0
+      vertex 15 5 0
+      vertex 15 60 0
+      vertex 5 60 0
     endloop
   endfacet
-endsolid DukeLogo
+  facet normal 0 0 -1
+    outer loop
+      vertex 0 60 0
+      vertex 0 55 0
+      vertex 40 55 0
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 0 60 0
+      vertex 40 55 0
+      vertex 40 60 0
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 15 45 0
+      vertex 45 45 0
+      vertex 15 55 0
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 45 45 0
+      vertex 45 55 0
+      vertex 15 55 0
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 15 15 0
+      vertex 15 5 0
+      vertex 45 15 0
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 15 5 0
+      vertex 45 5 0
+      vertex 45 15 0
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 45 15 0
+      vertex 50 15 0
+      vertex 45 45 0
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 50 15 0
+      vertex 50 45 0
+      vertex 45 45 0
+    endloop
+  endfacet
+endsolid DukeDLogo
 ```
 
 ## 📋 Table of Contents
